@@ -21,11 +21,10 @@
 # #SBATCH -o outs/rand_quad_sim_%A_%a.out    # File to which STDOUT will be written
 # #SBATCH -e outs/rand_quad_sim_%A_%a.err    # File to which STDERR will be written
 # #SBATCH --mail-type=ALL       # Type of email notification- BEGIN,END,FAIL,ALL
-# #SBATCH --mail-user=tgwest@uw.edu # Email to which notifications will be sent
+# #SBATCH --mail-user= # Email to which notifications will be sent
 # 
 # R CMD BATCH --vanilla --no-restore --no-save /code/6_random_quadratic_simulations.R  outs/random_quadratic_sim_"${SLURM_ARRAY_TASK_ID}".Rout
 #
-# Author: tedwestling
 ###############################################################################
 
 source('code/mixed_logit_functions.R')
