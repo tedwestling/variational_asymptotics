@@ -21,15 +21,13 @@
 # #SBATCH -o outs/rand_int_sim_%A_%a.out    # File to which STDOUT will be written
 # #SBATCH -e outs/rand_int_sim_%A_%a.err    # File to which STDERR will be written
 # #SBATCH --mail-type=ALL       # Type of email notification- BEGIN,END,FAIL,ALL
-# #SBATCH --mail-user=tgwest@uw.edu # Email to which notifications will be sent
+# #SBATCH --mail-user=# Email to which notifications will be sent
 # 
 # R CMD BATCH --vanilla --no-restore --no-save /code/3_random_intercept_simulations.R  outs/random_intercept_sim_"${SLURM_ARRAY_TASK_ID}".Rout
 #
-# Author: tedwestling
 ###############################################################################
 
 rm(list=ls())
-setwd('/homes/tgwest/random_intercepts')
 source('code/mixed_logit_functions.R')
 nodes <- 12 # Run on the cluster
 task_id <- as.numeric(Sys.getenv('SLURM_ARRAY_TASK_ID'))
