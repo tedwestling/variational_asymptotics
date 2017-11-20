@@ -8,7 +8,6 @@
 # effects corresponding to the intercept, slope, and quadratic effect of time
 # for the average male and female separately.
 #
-# Author: tedwestling
 ###############################################################################
 
 source('code/mixed_logit_functions.R')
