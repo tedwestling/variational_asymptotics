@@ -7,7 +7,6 @@
 # a summary data frame with point estimates, confidence intervals, and the results
 # of the consistency tests. It then produces the plots and tables in the paper.
 #
-# Author: tedwestling
 ###############################################################################
 
 source('code/mixed_logit_functions.R')
