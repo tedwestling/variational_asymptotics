@@ -5,7 +5,6 @@
 # -----------------------------
 # Replicates simulation study and makes plots for the mixture of exponentials model
 #
-# Author: tedwestling
 #############################################################################################
 
 source('code/exp_mixture_vb_fns.R')
