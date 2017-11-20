@@ -8,10 +8,8 @@
 # effects corresponding to the intercept, slope, and quadratic effect of time
 # for males and females separately.
 #
-# Author: tedwestling
 ###############################################################################
 
-setwd('/Users/tedwestling/Dropbox/Research/variational_asymptotics/replication_files/')
 source('code/mixed_logit_functions.R')
 nodes <- 1 # we ran this file on a personal computer with no parallelization
 
