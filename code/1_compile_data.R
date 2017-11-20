@@ -9,7 +9,6 @@
 # and saved as data/data.R. To download the exact same dataset, go to the above link 
 # and upload the file data.NLSY97 (included in the replication files) as a tagset.
 #
-# Author: tedwestling
 ###############################################################################
 
 # The data comes as a .R file that you source
