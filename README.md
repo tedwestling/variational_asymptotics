@@ -1,5 +1,5 @@
 # variational_asymptotics
-Replication files for analyses and experiments in "Consistency, Calibration, and Efficiency of Variational Inference" (T. Westling &amp; T. H. McCormick).
+Replication files for analyses and experiments in "Beyond prediction: A framework for inference with variational approximations in mixture models".
 
 To download the NLSY97 data, follow these steps:
 
