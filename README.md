@@ -1,5 +1,7 @@
 # variational_asymptotics
-Replication files for analyses and experiments in "Beyond prediction: A framework for inference with variational approximations in mixture models".
+Replication files for analyses and experiments in:
+
+Westling, T. and McCormick, T. H. (2019). Beyond Prediction: A Framework for Inference With Variational Approximations in Mixture Models. Journal of Computational and Graphical Statistics, 28(4):778-789. doi:10.1080/10618600.2019.1609977.
 
 To download the NLSY97 data, follow these steps:
 
